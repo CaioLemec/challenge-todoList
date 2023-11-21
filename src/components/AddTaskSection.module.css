@@ -1,0 +1,66 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transform: translateY(-50%);
+  max-width: 46rem;
+  margin: 0 auto;
+}
+
+.wrapper > input {
+  width: 39.875rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  background: var(--gray-500);
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.wrapper > button[type="submit"] {
+  padding: 1rem;
+  width: 5.625rem;
+  height: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.425rem;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background, scale 0.1s;
+}
+
+.wrapper > button[type="submit"] > svg {
+  font-weight: bold;
+}
+
+.wrapper > button[type="submit"]:not(:disabled):hover {
+  background: var(--blue);
+}
+
+.wrapper > button[type="submit"]:not(:disabled):active {
+  scale: 90%;
+}
+
+.wrapper > button[type="submit"]:disabled {
+  opacity: 80%;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+}

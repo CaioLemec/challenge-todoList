@@ -1,0 +1,97 @@
+.wrapper {
+  max-width: 46rem;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 8px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.wrapper > img {
+  margin-top: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.wrapper > span {
+  color: var(--gray-300);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.listContainer {
+  display: flex;
+  padding: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.listContainer svg {
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background, scale 0.1s;
+}
+
+.listContainer svg.unchecked {
+  color: var(--blue-dark);
+}
+
+.listContainer svg.unchecked:hover {
+  color: var(--blue);
+}
+
+.listContainer svg.checked {
+  color: var(--purple-dark);
+}
+
+.listContainer svg.checked:hover {
+  color: var(--purple);
+}
+
+.listContainer svg:first-child:checked {
+  border-radius: 4px;
+  background: var(--gray-400);
+  color: var(--danger);
+}
+
+.listContainer svg:last-child:hover {
+  border-radius: 4px;
+  background: var(--gray-400);
+  color: var(--danger);
+}
+
+.listContainer svg:last-child:active {
+  scale: 90%;
+}
+
+.listContainer > span {
+  width: 39.5rem;
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: start;
+}
+
+.listContainer > span.checked {
+  color: var(--gray-300);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: line-through;
+}
