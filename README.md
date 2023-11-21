@@ -1,10 +1,8 @@
-<h1 align="center">
+<h3 align="center">
     <img alt="logo" title="To do list" src="src/assets/rocket.svg" width="8%" />
-</h1>
+</h3>
 
 <h1 align="center"># To-Do List Challenge</h1>
-
-<br>
 
 <p align="center">
 <a href="#project"><img src="https://img.shields.io/static/v1?label=&message=Project&color=4ea8de&style=for-the-badge&logo=React"></a>&nbsp;
@@ -13,9 +11,9 @@
 <a href="#license"><img src="https://img.shields.io/static/v1?label=&message=License&color=4ea8de&style=for-the-badge&logo=LibreOffice"></a>&nbsp;
 </p>
 
-<h1 align="center">
-  <img alt="Demo mockup" title="Demo mockup" src="public/mockup.png" width="80%" />
-</h1>
+<h3 align="center">
+  <img alt="Demo mockup" title="Demo mockup" src="public/mockup.png" width="100%" />
+</h3>
 
 ## Project
 
@@ -33,6 +31,12 @@ Despite the simplicity of these functionalities, the project provided an opportu
 - Lists and keys in ReactJS
 - Properties
 - Componentization
+
+### Demo:
+
+<p align="center">
+<img src="./public/images/test.gif" width="75%"/>
+</p>
 
 > `Alert 1:` For optimal experience, it is advisable not to use IE 6-8 as a browser due to certain styling features.
 
