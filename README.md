@@ -13,6 +13,10 @@
 <a href="#license"><img src="https://img.shields.io/static/v1?label=&message=License&color=4ea8de&style=for-the-badge&logo=LibreOffice"></a>&nbsp;
 </p>
 
+<h1 align="center">
+  <img alt="Demo mockup" title="Demo mockup" src="public/mockup.png" width="80%" />
+</h1>
+
 ## Project
 
 This project was developed to meet the challenge of creating a to-do list with the following functionalities:
