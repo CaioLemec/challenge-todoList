@@ -35,7 +35,7 @@ Despite the simplicity of these functionalities, the project provided an opportu
 ### Demo:
 
 <p align="center">
-<img src="./public/images/test.gif" width="75%"/>
+<img src="/public/test.gif" width="75%"/>
 </p>
 
 > `Alert 1:` For optimal experience, it is advisable not to use IE 6-8 as a browser due to certain styling features.
