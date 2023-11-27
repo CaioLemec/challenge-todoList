@@ -10,7 +10,7 @@ function App() {
   const [taskList, setTaskList] = useState<TaskListProps[]>([]);
 
   const handleAddTask = (task: TaskListProps) => {
-    setTaskList([...taskList, task]);
+    setTaskList((prevState) => [...prevState, task]);
   };
 
   const handleCheckTask = (taskId: number) => {
